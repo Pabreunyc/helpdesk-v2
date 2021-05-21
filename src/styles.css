@@ -1,9 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
-:host {
+body {
     font-family: -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 14px;
+    background-color: aliceblue;
     color: #333;
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    --color1: #16a5aa;
+    --color2: #cf2026;
+    --color3: #f8d7da;
+    --color4: #f5c6cb;
+    --color5: #721c24;
 }

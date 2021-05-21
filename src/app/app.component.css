@@ -1,0 +1,33 @@
+header {
+    background-color: aquamarine;
+    color: black;
+    border-bottom: 1px solid black;
+}
+footer {
+    background-color: black;
+    border-top: 1px solid black;
+    color: white;
+    margin:0;
+    padding:0;
+}
+main {
+    background-color: white;
+}
+
+#navlist {
+    margin-left: 0;
+    padding-left: 0;
+    white-space: nowrap;
+}
+#navlist li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 20px;
+}
+#navlist a { padding: 3px 10px; }
+
+#navlist a:link, #navlist a:visited {
+    color: #fff;
+    background-color: #036;
+    text-decoration: none;
+}
